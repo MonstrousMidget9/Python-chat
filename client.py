@@ -86,7 +86,7 @@ def background_thread():
 sock = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
 name = socket.gethostname()
 try:
-	sock.connect(('localhost' , 5050))
+	sock.connect(('localhost' , 5050)) # change this depending on where the server is hosted
 except:
 	print('\033[91mSorry, the Server is Currently Offline!\033[0m')
 	exit()
