@@ -1,5 +1,5 @@
 
-# terminal-based-chat
+# A chat using sockets in Python
 My first ever networking project with sockets in python.
 Its not that good, so please don't judge :D
 
